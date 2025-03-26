@@ -1,5 +1,5 @@
 #include <cmath>
-#include "PoopyLibDefine.h"
+#include "PoopyLibBase.h"
 
 class PLibMath
 {

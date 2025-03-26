@@ -4,8 +4,17 @@
     <Filter Include="Math">
       <UniqueIdentifier>{258f7649-a460-44ba-bbb6-f96c9fcae0dc}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Define">
-      <UniqueIdentifier>{c1e1383b-e15f-4b77-ad51-72a515e0c050}</UniqueIdentifier>
+    <Filter Include="Container">
+      <UniqueIdentifier>{cbe0b084-a33f-42e5-9bd0-9060867a958e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Container\Allocator">
+      <UniqueIdentifier>{97b1a620-96aa-4d75-8c64-0492428e5c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{1a15a17e-c641-48e8-8509-e702eac83faa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PreCompileHeader">
+      <UniqueIdentifier>{ecb3bc05-0d3b-4b0d-bde2-1251f0c75dcd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -14,8 +23,17 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="PAllocator.h">
+      <Filter>Container\Allocator</Filter>
+    </ClInclude>
     <ClInclude Include="PoopyLibDefine.h">
-      <Filter>Define</Filter>
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PoopyLibTypes.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="PoopyLibBase.h">
+      <Filter>PreCompileHeader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
