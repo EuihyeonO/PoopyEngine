@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{54310c39-cd59-4c6c-857b-cdb9d24b523b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EngineMain">
+      <UniqueIdentifier>{2fb72e31-fb93-4468-8d0f-c91a405f1ac9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="EngineMain.cpp">
+      <Filter>EngineMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EngineMain.h">
+      <Filter>EngineMain</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
