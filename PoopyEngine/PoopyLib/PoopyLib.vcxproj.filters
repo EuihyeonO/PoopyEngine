@@ -7,14 +7,20 @@
     <Filter Include="Container">
       <UniqueIdentifier>{cbe0b084-a33f-42e5-9bd0-9060867a958e}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Container\Allocator">
-      <UniqueIdentifier>{97b1a620-96aa-4d75-8c64-0492428e5c34}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Base">
       <UniqueIdentifier>{1a15a17e-c641-48e8-8509-e702eac83faa}</UniqueIdentifier>
     </Filter>
     <Filter Include="PreCompileHeader">
       <UniqueIdentifier>{ecb3bc05-0d3b-4b0d-bde2-1251f0c75dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{db15c09d-83b3-409e-89fe-a9972e0a3d31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory\Allocator">
+      <UniqueIdentifier>{97b1a620-96aa-4d75-8c64-0492428e5c34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{79bbff2e-c5eb-4564-ab89-981694e03629}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -24,7 +30,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PAllocator.h">
-      <Filter>Container\Allocator</Filter>
+      <Filter>Memory\Allocator</Filter>
     </ClInclude>
     <ClInclude Include="PoopyLibDefine.h">
       <Filter>Base</Filter>
@@ -34,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="PoopyLibBase.h">
       <Filter>PreCompileHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="PDebugBase.h">
+      <Filter>Util</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
